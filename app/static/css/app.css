@@ -18,3 +18,21 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+img{
+    height: 330px;
+    width: 330px;
+}
+
+.image-grid {
+    margin-top: 30px;
+}
+  
+.image-grid ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: none;
+    gap:20px;
+}
